@@ -12,5 +12,5 @@ app.use("/api/", routes);
 
 app.listen(port, ()=>
 {
-  console.info(`Greenode Backend server listening on port: ${port}`)
+  console.info(`Greenode Backend server listening on port: ${process.env.PORT}`)
 });
