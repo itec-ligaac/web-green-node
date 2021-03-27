@@ -6,7 +6,7 @@ const routes  = require("./routes/routes")
 
 //Express properties
 const app     = express()
-const port    = 80
+const port    = 8000
 
 app.use("/api/", routes);
 

@@ -12,4 +12,4 @@ RUN npm install --production
 COPY . .
 
 CMD [ "node", "backend/index.js" ]
-EXPOSE 80
+EXPOSE 8000
