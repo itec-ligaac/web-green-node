@@ -1,18 +1,20 @@
 <template>
   <navBar/>
-  <comparePage v-if="currentPage == 'comparePage'"/>
+  <favoritesPage/>
 </template>
 
 <script>
 import navBar from './components/navBar.vue'
+import favoritesPage from './components/favoritesPage'
 
-import comparePage from './components/comparePage.vue'
 
 export default {
   name: 'App',
   components: {
     navBar,
-    comparePage
+    favoritesPage
+    
+
   },
   data(){
     return{
@@ -37,7 +39,6 @@ html, body{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>
