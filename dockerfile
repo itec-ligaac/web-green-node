@@ -1,3 +1,5 @@
+# Dockerfile for the backend server
+
 FROM node:12.18.1
 ENV NODE_ENV=production
 
